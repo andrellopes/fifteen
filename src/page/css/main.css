@@ -1,0 +1,80 @@
+body {
+    background-color: #27ae60;
+}
+
+h1, h2, h3, h4, h5, spam, buttom {
+    font-family: Montserrat;
+    font-weight: 700;
+}
+
+.border {
+    width: 280px;
+    margin-top: 5vh;
+    padding: 10px 0 25px 0;
+    text-align: center;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 5px 5px 0px 0px rgba(0, 0, 0, 0.1);
+}
+
+.box {
+    width: 23px;
+    height: auto;
+    padding: 10px;
+    margin: 5px;
+    border: 2px solid seagreen;
+    border-radius: 5px;
+    background-color: seagreen;
+    box-shadow: 3px 3px 0px 0px rgba(0, 0, 0, 0.1);
+    font-size: 20px;
+    color: white;
+    display: inline-flex;
+    cursor: pointer;
+    text-align: center;
+    user-select: none;
+    box-sizing: initial;
+}
+
+.box:disabled {
+    opacity: 0.5;
+}
+
+.box:focus {
+    outline: none;
+}
+
+.congrats {
+    width: 280px;
+    height: 260px;
+    position: absolute;
+    opacity: 0.9;
+    cursor: not-allowed;
+    background-color: white;
+    background-image: url(../fireworks.gif);
+    background-size: cover;
+    /* border-radius: 5px; */
+}
+
+.jogando {
+    width: 280px;
+}
+
+button {
+    display: inline-flex;
+    padding: 5px;
+}
+
+button:disabled {
+    opacity: 0.3;
+    cursor: not-allowed;
+}
+
+span {
+    display: inline-flex;
+    position: relative;
+    left: 0%;
+}
+
+.align-middle {
+    color: white;
+}
