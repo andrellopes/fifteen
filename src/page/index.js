@@ -364,7 +364,7 @@ export default class Main extends Component {
                     </button>
                     <span>Jogadas: {contagem}</span>
                 </div>
-
+/*
                 <div className="d-flex justify-content-center mt-3">
                     <span className="align-middle">Visualizações: </span>
                     <img src="https://megacontador.com.br/img-SNxpCZLlkyz4tJe5-7.gif" alt="" />
@@ -372,6 +372,7 @@ export default class Main extends Component {
                     {/* <img src="https://megacontador.com.br/img-W47h9wzYMBQks9VA-7.gif" alt="" /> */}
 
                 </div>
+*/
             </div>
         )
     }
